@@ -20,17 +20,17 @@ console.log('Exercise 2 Result:', isAdult(21));
 console.log('---------------------------------------------')
 function isCharAVowel(vowel){
     if (vowel === 'a')
-        return "True";
+        return true;
     else if (vowel === 'e' )
-        return "True";
+        return true;
     else if (vowel === 'i' )
-        return "True";
+        return true;
     else if (vowel === 'o' )
-        return "True";
+        return true;
     else if (vowel === 'u' )
-        return "True";
+        return true;
     else
-    return "False";
+    return false;
 }
 console.log('Exercise 3 Result:', isCharAVowel("a"));
 console.log('---------------------------------------------')
@@ -105,21 +105,6 @@ function calculateGrade(grade){
 }
 console.log('Exercise 10 Result:', calculateGrade(85));
 console.log('---------------------------------------------')
-/*
-Exercise 11: createUsername()
-
-Define a function called createUsername. 
-It should take a first name and a last name and return a username. 
-
-The username should be a combination of the following:
-- The first three letters of the first name.
-- The first three letters of the last name.
-- The total character count of the first and last name combined.
-
-Example: createUsername('Samantha', 'Green') should return 'SamGre12'.
-
-Complete the exercise in the space below:
-*/
 function createUsername(user, name){
     const Firstthreeusernameletters = user.slice(0,3);
     const Lastthreeusernameletters = name.slice(0,3);
@@ -132,4 +117,4 @@ function numArgs(a, b, c, d) {
   return arguments.length;
 }
 console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
-console.log('<-------------------------------------------------->')
+console.log('---------------------------------------------')
